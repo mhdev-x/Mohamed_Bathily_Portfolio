@@ -4,6 +4,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color:#363A44;
     color: white;
+    scroll-behavior: smooth;
 }
 
 .logo img{
@@ -111,6 +112,11 @@ p{
     font-size: 30px;
 }
 /*PARTIE COMPETENCES*/
+
+.competences{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
 
 .item{
     display:flex;
