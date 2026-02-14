@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#363A44;
+    color: white;
+}
+
+.logo img{
+    width: 400px;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+li  a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: #112335;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+li a:hover{
+    background-color: white ;
+    color: black ;
+}
+        /*FIN HEADER*/
+
+    
+/*PARTIE A PROPOS*/
+
+.apropos{
+    background-color:#363A44;
+}
+
+.container1 img{
+    background-color: #112335;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50px;
+    box-shadow: 0 0 10px white;
+
+}
+
+.container1{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+.container1 p{
+    font-size: 20px;
+    color: white;
+}
+section h1{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.apropos{
+    padding-bottom: 80px;
+}
+p{
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    color: #cbd5e1;
+}
+.logofacebook, .logoinstagram, .logowhatsapp{
+    width: 70px;
+}
+    
+.span1{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.span2{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.span3{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.span2, .span3{
+    border-radius: 2px;
+    border: #363A44 1px solid;
+    font-size: 30px;
+}
+/*PARTIE COMPETENCES*/
+
+.item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap:20px;
+}
+.max{
+    width: 200px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+.valeur1{
+    width: 95%;
+    height: 20px;
+    background-color:#ef4444;
+    border-radius: 10px;
+}
+.valeur2{
+    width: 60%;
+    height: 20px;
+    background-color: #3b82f6;
+    border-radius: 10px;
+}
+.valeur3{
+    width: 70%;
+    height: 20px;
+    background-color: #22c55e;
+    border-radius: 10px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 10px;
+    padding: 50px 20px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.services img{
+    width: 50px;
+}
+.services a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    background: #1e293b;
+    color: white;
+}
+form{
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 15px;
+}
+.form {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #112335;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/*PARTIE FOOTER*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #112335;
+    color: white;
+
+}
+.footer0{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
