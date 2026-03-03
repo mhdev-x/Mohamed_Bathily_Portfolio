@@ -14,7 +14,7 @@ Créer un site personnel pour présenter :
 - CSS3
 
 ## 🚀 À propos
-Je suis étudiant en Génie Logiciel, passionné par l’informatique depuis l’école primaire. 
+Je suis étudiant en Génie Logiciel, passionné par l’informatique depuis l’école primaire.
 Ce projet marque le début de mon parcours en développement web.
 
 📌 Projet réalisé dans le cadre de mon apprentissage du développement web.
