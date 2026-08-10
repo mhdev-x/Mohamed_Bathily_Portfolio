@@ -20,7 +20,7 @@ Le design s'inspire du pseudocode utilisé dans mes cours d'algorithmique — la
 - HTML5 / CSS3 (variables CSS pour le theming)
 - JavaScript vanilla (toggle de thème uniquement)
 - [Font Awesome](https://fontawesome.com/) pour les icônes
-- Polices : Space Grotesk, Inter, JetBrains Mono
+- Polices : Audiowide, Inter, JetBrains Mono
 
 ## Structure du projet
 
