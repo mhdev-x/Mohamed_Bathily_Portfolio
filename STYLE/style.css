@@ -206,6 +206,14 @@ body.theme-clair .barre-nav {
     border-color: var(--accent-signal);
 }
 
+#accueil,
+#apropos,
+#competences,
+#projets,
+#contact {
+    scroll-margin-top: 90px;
+}
+
 /* --- HERO --- */
 .accueil {
     max-width: 960px;
