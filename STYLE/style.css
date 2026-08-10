@@ -403,7 +403,7 @@ body.theme-clair .barre-nav {
 
 .bouton-signal {
     background: var(--accent-signal);
-    color: var(--accent-signal-text);
+    color: var(--text-primary);
 }
 
 .bouton-signal:hover {
@@ -413,7 +413,7 @@ body.theme-clair .barre-nav {
 
 .bouton-cv {
     background: var(--accent-structural);
-    color: #FFFFFF;
+    color: var(--text-primary);
     border: 1px solid var(--accent-structural);
 }
 
