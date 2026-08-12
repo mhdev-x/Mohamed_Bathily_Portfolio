@@ -23,7 +23,7 @@ html{
     --font-code: 'JetBrains Mono', monospace;
 }
 
-/* --- THEME CLAIR --- */
+/*  THEME CLAIR  */
 body.theme-clair {
     --bg-deep: #F7F8FB;
     --bg-surface: #FFFFFF;
@@ -85,7 +85,7 @@ body.theme-clair .barre-nav {
     text-decoration: none;
 }
 
-/* --- Animation MHDevX --- */
+/*  Animation MHDevX  */
 .marque span {
     display: inline-block;
     opacity: 0;
@@ -188,7 +188,7 @@ body.theme-clair .barre-nav {
     width: 100%;
 }
 
-/* --- TOGGLE THEME --- */
+/*  TOGGLE THEME  */
 .bouton-theme {
     background: var(--bg-surface);
     border: 1px solid var(--border);
@@ -214,7 +214,7 @@ body.theme-clair .barre-nav {
     scroll-margin-top: 85px;
 }
 
-/* --- HERO --- */
+/*  HERO  */
 .accueil {
     max-width: 960px;
     margin: 0 auto;
@@ -256,7 +256,7 @@ body.theme-clair .barre-nav {
     margin-bottom: 40px;
 }
 
-/* --- ANIMATIONS D'ENTREE (HERO) --- */
+/* ANIMATIONS D'ENTREE */
 @keyframes fadeSlideUp {
     from {
         opacity: 0;
@@ -278,7 +278,7 @@ body.theme-clair .barre-nav {
     animation: fadeSlideUp 0.6s ease forwards;
 }
 
-/* Ordre reajuste : photo -> sous-titre -> titre -> Var -> Debut -> affectations -> bouton */
+/* Ordre Animation */
 .photoProfil         { animation-delay: 0.05s; }
 .sous-titre-accueil  { animation-delay: 0.15s; }
 .titre-accueil       { animation-delay: 0.3s; }
@@ -334,7 +334,7 @@ body.theme-clair .barre-nav {
 }
 
 
-/* Directions */
+/* Directions de l'animation */
 .titre-accueil span:not(.prenom):not(.nom):nth-child(4n+1){
     transform:translateY(-50px) rotate(-10deg);
 }
@@ -436,7 +436,7 @@ body.theme-clair .barre-nav {
     color: var(--text-secondary);
 }
 
-/* --- SECTIONS GENERALES --- */
+/*  SECTIONS GENERALES  */
 .section {
     max-width: 1000px;
     margin: 0 auto;
@@ -470,7 +470,7 @@ body.theme-clair .barre-nav {
     color: var(--text-primary);
 }
 
-/* --- COMPETENCES --- */
+/*  COMPETENCES  */
 .sous-titre-groupe {
     font-family: var(--font-code);
     font-size: 0.78rem;
@@ -613,7 +613,7 @@ body.theme-clair .barre-nav {
     font-size: 0.85rem;
 }
 
-/* --- RESPONSIVE --- */
+/*  RESPONSIVITÉ */
 @media (max-width: 640px) {
     .barre-nav {
         padding: 16px 20px;
@@ -650,7 +650,7 @@ body.theme-clair .barre-nav {
     }
 }
 
-/* --- MENU MOBILE (burger) --- */
+/*  MENU MOBILE  */
 @media (max-width: 640px) {
     .etiquette-menu {
         display: flex;
